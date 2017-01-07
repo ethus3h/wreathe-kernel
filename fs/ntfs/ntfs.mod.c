@@ -1,0 +1,136 @@
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+
+__visible struct module __this_module
+__attribute__((section(".gnu.linkonce.this_module"))) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+static const struct modversion_info ____versions[]
+__used
+__attribute__((section("__versions"))) = {
+	{ 0x59776590, __VMLINUX_SYMBOL_STR(module_layout) },
+	{ 0xd05f2737, __VMLINUX_SYMBOL_STR(kmem_cache_destroy) },
+	{ 0x8ffd7a43, __VMLINUX_SYMBOL_STR(kmalloc_caches) },
+	{ 0xd2b09ce5, __VMLINUX_SYMBOL_STR(__kmalloc) },
+	{ 0x2b96cca1, __VMLINUX_SYMBOL_STR(sb_min_blocksize) },
+	{ 0x6b954705, __VMLINUX_SYMBOL_STR(up_read) },
+	{ 0x5aecec06, __VMLINUX_SYMBOL_STR(unload_nls) },
+	{ 0xec234dbc, __VMLINUX_SYMBOL_STR(make_bad_inode) },
+	{ 0x802e2e30, __VMLINUX_SYMBOL_STR(generic_file_llseek) },
+	{ 0xd6ee688f, __VMLINUX_SYMBOL_STR(vmalloc) },
+	{ 0x349cba85, __VMLINUX_SYMBOL_STR(strchr) },
+	{ 0x7aa1756e, __VMLINUX_SYMBOL_STR(kvfree) },
+	{ 0x754d539c, __VMLINUX_SYMBOL_STR(strlen) },
+	{ 0x60a13e90, __VMLINUX_SYMBOL_STR(rcu_barrier) },
+	{ 0xef5b082e, __VMLINUX_SYMBOL_STR(iget5_locked) },
+	{ 0x6370234b, __VMLINUX_SYMBOL_STR(from_kuid_munged) },
+	{ 0x9aeece35, __VMLINUX_SYMBOL_STR(generic_fh_to_parent) },
+	{ 0x6f05804b, __VMLINUX_SYMBOL_STR(block_is_partially_uptodate) },
+	{ 0x7a3b5044, __VMLINUX_SYMBOL_STR(is_bad_inode) },
+	{ 0x3219c956, __VMLINUX_SYMBOL_STR(pagecache_get_page) },
+	{ 0x96da1839, __VMLINUX_SYMBOL_STR(generic_file_open) },
+	{ 0x6ba0f7c, __VMLINUX_SYMBOL_STR(__lock_page) },
+	{ 0xdec8c72e, __VMLINUX_SYMBOL_STR(__lock_buffer) },
+	{ 0x20000329, __VMLINUX_SYMBOL_STR(simple_strtoul) },
+	{ 0x4caa3b97, __VMLINUX_SYMBOL_STR(seq_printf) },
+	{ 0x316d2f8e, __VMLINUX_SYMBOL_STR(buffer_migrate_page) },
+	{ 0x2ded27, __VMLINUX_SYMBOL_STR(init_user_ns) },
+	{ 0xd35d7c, __VMLINUX_SYMBOL_STR(mutex_unlock) },
+	{ 0xa6d80de3, __VMLINUX_SYMBOL_STR(mount_bdev) },
+	{ 0x85df9b6c, __VMLINUX_SYMBOL_STR(strsep) },
+	{ 0x2b9f3c2e, __VMLINUX_SYMBOL_STR(d_add) },
+	{ 0xbf911647, __VMLINUX_SYMBOL_STR(generic_read_dir) },
+	{ 0x999e8297, __VMLINUX_SYMBOL_STR(vfree) },
+	{ 0x977bd7e5, __VMLINUX_SYMBOL_STR(__getblk_gfp) },
+	{ 0xdff1fb53, __VMLINUX_SYMBOL_STR(igrab) },
+	{ 0xaa93e3ba, __VMLINUX_SYMBOL_STR(unlock_buffer) },
+	{ 0xf995798a, __VMLINUX_SYMBOL_STR(down_read) },
+	{ 0xe2d5255a, __VMLINUX_SYMBOL_STR(strcmp) },
+	{ 0xdc7a2575, __VMLINUX_SYMBOL_STR(from_kgid_munged) },
+	{ 0xde9360ba, __VMLINUX_SYMBOL_STR(totalram_pages) },
+	{ 0xe8c9e8f8, __VMLINUX_SYMBOL_STR(make_kgid) },
+	{ 0x7d35fe87, __VMLINUX_SYMBOL_STR(__insert_inode_hash) },
+	{ 0xfb578fc5, __VMLINUX_SYMBOL_STR(memset) },
+	{ 0x7abc4e4b, __VMLINUX_SYMBOL_STR(d_add_ci) },
+	{ 0x80a03979, __VMLINUX_SYMBOL_STR(current_task) },
+	{ 0x892186d8, __VMLINUX_SYMBOL_STR(__bread_gfp) },
+	{ 0x99eb629f, __VMLINUX_SYMBOL_STR(__mutex_init) },
+	{ 0x27e1a049, __VMLINUX_SYMBOL_STR(printk) },
+	{ 0x1bdf959f, __VMLINUX_SYMBOL_STR(d_obtain_alias) },
+	{ 0x449ad0a7, __VMLINUX_SYMBOL_STR(memcmp) },
+	{ 0xa1c76e0a, __VMLINUX_SYMBOL_STR(_cond_resched) },
+	{ 0x9fe09c18, __VMLINUX_SYMBOL_STR(kmem_cache_free) },
+	{ 0x16305289, __VMLINUX_SYMBOL_STR(warn_slowpath_null) },
+	{ 0xf22f18d9, __VMLINUX_SYMBOL_STR(set_nlink) },
+	{ 0x28db0cc6, __VMLINUX_SYMBOL_STR(mutex_lock) },
+	{ 0xbbf8142e, __VMLINUX_SYMBOL_STR(__wait_on_buffer) },
+	{ 0x25f02a48, __VMLINUX_SYMBOL_STR(sync_dirty_buffer) },
+	{ 0x6d6f2e63, __VMLINUX_SYMBOL_STR(unlock_page) },
+	{ 0x296ae885, __VMLINUX_SYMBOL_STR(generic_file_read_iter) },
+	{ 0x7e32222a, __VMLINUX_SYMBOL_STR(up_write) },
+	{ 0x3a7bca5, __VMLINUX_SYMBOL_STR(down_write) },
+	{ 0xc57151fe, __VMLINUX_SYMBOL_STR(__brelse) },
+	{ 0xd63f3a83, __VMLINUX_SYMBOL_STR(inode_init_once) },
+	{ 0x4544e538, __VMLINUX_SYMBOL_STR(kmem_cache_alloc) },
+	{ 0xcc82add3, __VMLINUX_SYMBOL_STR(_raw_read_lock_irqsave) },
+	{ 0x533cc60c, __VMLINUX_SYMBOL_STR(generic_file_mmap) },
+	{ 0xaddf3cd1, __VMLINUX_SYMBOL_STR(truncate_inode_pages_final) },
+	{ 0xbe6c3e1f, __VMLINUX_SYMBOL_STR(create_empty_buffers) },
+	{ 0x6a6f668a, __VMLINUX_SYMBOL_STR(make_kuid) },
+	{ 0xf1364188, __VMLINUX_SYMBOL_STR(load_nls) },
+	{ 0x1000e51, __VMLINUX_SYMBOL_STR(schedule) },
+	{ 0x3d9ee9f0, __VMLINUX_SYMBOL_STR(clear_page) },
+	{ 0xded9ef, __VMLINUX_SYMBOL_STR(unlock_new_inode) },
+	{ 0xa8a04c01, __VMLINUX_SYMBOL_STR(kill_block_super) },
+	{ 0x3d1391e2, __VMLINUX_SYMBOL_STR(_raw_read_unlock_irqrestore) },
+	{ 0xdb3be743, __VMLINUX_SYMBOL_STR(full_name_hash) },
+	{ 0xa574969d, __VMLINUX_SYMBOL_STR(submit_bh) },
+	{ 0xe259ae9e, __VMLINUX_SYMBOL_STR(_raw_spin_lock) },
+	{ 0x2c8b9b5f, __VMLINUX_SYMBOL_STR(kmem_cache_create) },
+	{ 0x57b8c8eb, __VMLINUX_SYMBOL_STR(register_filesystem) },
+	{ 0x5463b690, __VMLINUX_SYMBOL_STR(iput) },
+	{ 0xa9bd2676, __VMLINUX_SYMBOL_STR(__vmalloc) },
+	{ 0x12025657, __VMLINUX_SYMBOL_STR(read_cache_page) },
+	{ 0x37a0cba, __VMLINUX_SYMBOL_STR(kfree) },
+	{ 0x637d5c34, __VMLINUX_SYMBOL_STR(ihold) },
+	{ 0x69acdf38, __VMLINUX_SYMBOL_STR(memcpy) },
+	{ 0x643e0ce5, __VMLINUX_SYMBOL_STR(call_rcu_sched) },
+	{ 0x4daa378c, __VMLINUX_SYMBOL_STR(load_nls_default) },
+	{ 0x8ad6fad2, __VMLINUX_SYMBOL_STR(generic_error_remove_page) },
+	{ 0x9b18a53f, __VMLINUX_SYMBOL_STR(d_splice_alias) },
+	{ 0x614a67fd, __VMLINUX_SYMBOL_STR(end_buffer_read_sync) },
+	{ 0x6128b5fc, __VMLINUX_SYMBOL_STR(__printk_ratelimit) },
+	{ 0x4eb873f3, __VMLINUX_SYMBOL_STR(sync_filesystem) },
+	{ 0x75188970, __VMLINUX_SYMBOL_STR(sb_set_blocksize) },
+	{ 0x4d6d25d9, __VMLINUX_SYMBOL_STR(d_make_root) },
+	{ 0x63c4d61f, __VMLINUX_SYMBOL_STR(__bitmap_weight) },
+	{ 0x187d388b, __VMLINUX_SYMBOL_STR(mark_buffer_dirty) },
+	{ 0xa829779e, __VMLINUX_SYMBOL_STR(unregister_filesystem) },
+	{ 0xa27560b1, __VMLINUX_SYMBOL_STR(new_inode) },
+	{ 0xb0e602eb, __VMLINUX_SYMBOL_STR(memmove) },
+	{ 0x510ec6df, __VMLINUX_SYMBOL_STR(generic_file_splice_read) },
+	{ 0xfbc4f89e, __VMLINUX_SYMBOL_STR(io_schedule_timeout) },
+	{ 0x3a88b60c, __VMLINUX_SYMBOL_STR(generic_fh_to_dentry) },
+	{ 0x3e43f67f, __VMLINUX_SYMBOL_STR(clear_inode) },
+	{ 0x8b7c4f54, __VMLINUX_SYMBOL_STR(__init_rwsem) },
+	{ 0xbe8a4b35, __VMLINUX_SYMBOL_STR(__put_page) },
+};
+
+static const char __module_depends[]
+__used
+__attribute__((section(".modinfo"))) =
+"depends=";
+
+
+MODULE_INFO(srcversion, "C890ADBEA56880547A4ABE5");

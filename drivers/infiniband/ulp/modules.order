@@ -1,0 +1,3 @@
+kernel/drivers/infiniband/ulp/ipoib/ib_ipoib.ko
+kernel/drivers/infiniband/ulp/srp/ib_srp.ko
+kernel/drivers/infiniband/ulp/iser/ib_iser.ko

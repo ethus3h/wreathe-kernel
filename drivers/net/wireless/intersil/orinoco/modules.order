@@ -1,0 +1,6 @@
+kernel/drivers/net/wireless/intersil/orinoco/orinoco.ko
+kernel/drivers/net/wireless/intersil/orinoco/orinoco_cs.ko
+kernel/drivers/net/wireless/intersil/orinoco/orinoco_plx.ko
+kernel/drivers/net/wireless/intersil/orinoco/orinoco_tmd.ko
+kernel/drivers/net/wireless/intersil/orinoco/orinoco_nortel.ko
+kernel/drivers/net/wireless/intersil/orinoco/spectrum_cs.ko

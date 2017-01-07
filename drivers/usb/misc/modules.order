@@ -1,0 +1,8 @@
+kernel/drivers/usb/misc/adutux.ko
+kernel/drivers/usb/misc/appledisplay.ko
+kernel/drivers/usb/misc/ezusb.ko
+kernel/drivers/usb/misc/ftdi-elan.ko
+kernel/drivers/usb/misc/iowarrior.ko
+kernel/drivers/usb/misc/trancevibrator.ko
+kernel/drivers/usb/misc/uss720.ko
+kernel/drivers/usb/misc/sisusbvga/sisusbvga.ko

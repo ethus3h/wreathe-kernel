@@ -1,0 +1,6 @@
+kernel/drivers/block/floppy.ko
+kernel/drivers/block/cciss.ko
+kernel/drivers/block/DAC960.ko
+kernel/drivers/block/umem.ko
+kernel/drivers/block/nbd.ko
+kernel/drivers/block/sx8.ko

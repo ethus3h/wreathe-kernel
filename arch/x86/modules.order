@@ -1,0 +1,7 @@
+kernel/arch/x86/kernel/msr.ko
+kernel/arch/x86/kernel/cpuid.ko
+kernel/arch/x86/crypto/aes-x86_64.ko
+kernel/arch/x86/crypto/twofish-x86_64.ko
+kernel/arch/x86/kvm/kvm.ko
+kernel/arch/x86/kvm/kvm-intel.ko
+kernel/arch/x86/kvm/kvm-amd.ko

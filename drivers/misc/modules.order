@@ -1,0 +1,6 @@
+kernel/drivers/misc/eeprom/eeprom_93cx6.ko
+kernel/drivers/misc/tifm_core.ko
+kernel/drivers/misc/tifm_7xx1.ko
+kernel/drivers/misc/phantom.ko
+kernel/drivers/misc/tsl2550.ko
+kernel/drivers/misc/ds1682.ko

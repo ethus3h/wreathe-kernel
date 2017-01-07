@@ -1,0 +1,2 @@
+kernel/drivers/char/agp/agpgart.ko
+kernel/drivers/char/agp/amd64-agp.ko

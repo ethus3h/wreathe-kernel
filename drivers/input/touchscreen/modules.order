@@ -1,0 +1,9 @@
+kernel/drivers/input/touchscreen/gunze.ko
+kernel/drivers/input/touchscreen/elants_i2c.ko
+kernel/drivers/input/touchscreen/elo.ko
+kernel/drivers/input/touchscreen/fujitsu_ts.ko
+kernel/drivers/input/touchscreen/mtouch.ko
+kernel/drivers/input/touchscreen/mk712.ko
+kernel/drivers/input/touchscreen/penmount.ko
+kernel/drivers/input/touchscreen/touchright.ko
+kernel/drivers/input/touchscreen/touchwin.ko

@@ -1,0 +1,4 @@
+kernel/drivers/input/serio/parkbd.ko
+kernel/drivers/input/serio/serport.ko
+kernel/drivers/input/serio/ct82c710.ko
+kernel/drivers/input/serio/pcips2.ko

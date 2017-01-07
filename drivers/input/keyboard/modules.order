@@ -1,0 +1,5 @@
+kernel/drivers/input/keyboard/lkkbd.ko
+kernel/drivers/input/keyboard/newtonkbd.ko
+kernel/drivers/input/keyboard/stowaway.ko
+kernel/drivers/input/keyboard/sunkbd.ko
+kernel/drivers/input/keyboard/xtkbd.ko

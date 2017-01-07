@@ -1,0 +1,17 @@
+kernel/fs/nfs_common/grace.ko
+kernel/fs/fat/msdos.ko
+kernel/fs/ocfs2/ocfs2_stack_user.ko
+kernel/fs/binfmt_misc.ko
+kernel/fs/dlm/dlm.ko
+kernel/fs/hfsplus/hfsplus.ko
+kernel/fs/ecryptfs/ecryptfs.ko
+kernel/fs/nfs/nfs.ko
+kernel/fs/nfs/nfsv2.ko
+kernel/fs/nfs/nfsv3.ko
+kernel/fs/nfsd/nfsd.ko
+kernel/fs/lockd/lockd.ko
+kernel/fs/cifs/cifs.ko
+kernel/fs/ntfs/ntfs.ko
+kernel/fs/fuse/fuse.ko
+kernel/fs/jfs/jfs.ko
+kernel/fs/efivarfs/efivarfs.ko

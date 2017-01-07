@@ -1,0 +1,121 @@
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+
+__visible struct module __this_module
+__attribute__((section(".gnu.linkonce.this_module"))) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+static const struct modversion_info ____versions[]
+__used
+__attribute__((section("__versions"))) = {
+	{ 0x59776590, __VMLINUX_SYMBOL_STR(module_layout) },
+	{ 0xe56a9336, __VMLINUX_SYMBOL_STR(snd_pcm_format_width) },
+	{ 0x5e25804, __VMLINUX_SYMBOL_STR(__request_region) },
+	{ 0x8ffd7a43, __VMLINUX_SYMBOL_STR(kmalloc_caches) },
+	{ 0xd16bceec, __VMLINUX_SYMBOL_STR(pci_bus_read_config_byte) },
+	{ 0xf174001a, __VMLINUX_SYMBOL_STR(snd_pcm_hw_rule_noresample) },
+	{ 0x686a6716, __VMLINUX_SYMBOL_STR(param_ops_int) },
+	{ 0xc364ae22, __VMLINUX_SYMBOL_STR(iomem_resource) },
+	{ 0xd0ee38b8, __VMLINUX_SYMBOL_STR(schedule_timeout_uninterruptible) },
+	{ 0xfe15ac18, __VMLINUX_SYMBOL_STR(snd_pcm_period_elapsed) },
+	{ 0xdb0efe2f, __VMLINUX_SYMBOL_STR(snd_dma_alloc_pages) },
+	{ 0xdfb89d24, __VMLINUX_SYMBOL_STR(snd_opl3_hwdep_new) },
+	{ 0x8526c35a, __VMLINUX_SYMBOL_STR(remove_wait_queue) },
+	{ 0x97d34247, __VMLINUX_SYMBOL_STR(pci_disable_device) },
+	{ 0xe5fd7b8c, __VMLINUX_SYMBOL_STR(snd_mpu401_uart_new) },
+	{ 0xb641acc2, __VMLINUX_SYMBOL_STR(snd_info_create_card_entry) },
+	{ 0x4caa3b97, __VMLINUX_SYMBOL_STR(seq_printf) },
+	{ 0xeae3dfd6, __VMLINUX_SYMBOL_STR(__const_udelay) },
+	{ 0x9e030a9f, __VMLINUX_SYMBOL_STR(param_ops_bool) },
+	{ 0x81a97669, __VMLINUX_SYMBOL_STR(pci_bus_write_config_word) },
+	{ 0x91715312, __VMLINUX_SYMBOL_STR(sprintf) },
+	{ 0x7d11c268, __VMLINUX_SYMBOL_STR(jiffies) },
+	{ 0x575b7ed8, __VMLINUX_SYMBOL_STR(snd_pcm_suspend_all) },
+	{ 0x9e88526, __VMLINUX_SYMBOL_STR(__init_waitqueue_head) },
+	{ 0xffd5a395, __VMLINUX_SYMBOL_STR(default_wake_function) },
+	{ 0xbce2e932, __VMLINUX_SYMBOL_STR(param_ops_charp) },
+	{ 0x819fa99d, __VMLINUX_SYMBOL_STR(pci_set_master) },
+	{ 0xc0fec227, __VMLINUX_SYMBOL_STR(snd_mpu401_uart_interrupt) },
+	{ 0xfb578fc5, __VMLINUX_SYMBOL_STR(memset) },
+	{ 0x150ad92b, __VMLINUX_SYMBOL_STR(ioport_resource) },
+	{ 0x561f9186, __VMLINUX_SYMBOL_STR(snd_device_new) },
+	{ 0x77bedc94, __VMLINUX_SYMBOL_STR(dev_err) },
+	{ 0x1916e38c, __VMLINUX_SYMBOL_STR(_raw_spin_unlock_irqrestore) },
+	{ 0x80a03979, __VMLINUX_SYMBOL_STR(current_task) },
+	{ 0x6a61e1ed, __VMLINUX_SYMBOL_STR(snd_timer_new) },
+	{ 0xe6718f32, __VMLINUX_SYMBOL_STR(snd_pcm_set_ops) },
+	{ 0x6f7d21e2, __VMLINUX_SYMBOL_STR(snd_ctl_notify) },
+	{ 0x5792f848, __VMLINUX_SYMBOL_STR(strlcpy) },
+	{ 0x5a11becc, __VMLINUX_SYMBOL_STR(snd_pcm_lib_free_pages) },
+	{ 0xd6b8e852, __VMLINUX_SYMBOL_STR(request_threaded_irq) },
+	{ 0xddcf91c8, __VMLINUX_SYMBOL_STR(release_and_free_resource) },
+	{ 0x6c59ed0c, __VMLINUX_SYMBOL_STR(snd_pcm_lib_ioctl) },
+	{ 0xcc7d24aa, __VMLINUX_SYMBOL_STR(__gameport_register_port) },
+	{ 0xb9d02d40, __VMLINUX_SYMBOL_STR(snd_ctl_boolean_mono_info) },
+	{ 0x8dba7e1f, __VMLINUX_SYMBOL_STR(snd_pcm_lib_malloc_pages) },
+	{ 0xc7d09050, __VMLINUX_SYMBOL_STR(snd_ac97_suspend) },
+	{ 0x55ba5894, __VMLINUX_SYMBOL_STR(snd_card_new) },
+	{ 0x81b69e41, __VMLINUX_SYMBOL_STR(snd_ctl_enum_info) },
+	{ 0x4544e538, __VMLINUX_SYMBOL_STR(kmem_cache_alloc) },
+	{ 0x42c8de35, __VMLINUX_SYMBOL_STR(ioremap_nocache) },
+	{ 0x659f86d9, __VMLINUX_SYMBOL_STR(pci_bus_read_config_word) },
+	{ 0x4e1b99f, __VMLINUX_SYMBOL_STR(snd_pcm_std_chmaps) },
+	{ 0xe5815f8a, __VMLINUX_SYMBOL_STR(_raw_spin_lock_irq) },
+	{ 0x5c23e9f0, __VMLINUX_SYMBOL_STR(snd_ctl_new1) },
+	{ 0x3cc8e6ef, __VMLINUX_SYMBOL_STR(gameport_unregister_port) },
+	{ 0x56aeb527, __VMLINUX_SYMBOL_STR(snd_dma_free_pages) },
+	{ 0xaf34f789, __VMLINUX_SYMBOL_STR(pci_unregister_driver) },
+	{ 0xe259ae9e, __VMLINUX_SYMBOL_STR(_raw_spin_lock) },
+	{ 0xc15decce, __VMLINUX_SYMBOL_STR(snd_ac97_bus) },
+	{ 0x680ec266, __VMLINUX_SYMBOL_STR(_raw_spin_lock_irqsave) },
+	{ 0x1d5c1629, __VMLINUX_SYMBOL_STR(snd_opl3_create) },
+	{ 0xa6bbd805, __VMLINUX_SYMBOL_STR(__wake_up) },
+	{ 0x24358fe0, __VMLINUX_SYMBOL_STR(snd_ac97_mixer) },
+	{ 0x8c17e2b9, __VMLINUX_SYMBOL_STR(pci_bus_write_config_byte) },
+	{ 0xf48e5168, __VMLINUX_SYMBOL_STR(snd_ac97_update_bits) },
+	{ 0xc9fef317, __VMLINUX_SYMBOL_STR(add_wait_queue) },
+	{ 0x37a0cba, __VMLINUX_SYMBOL_STR(kfree) },
+	{ 0xc1119a63, __VMLINUX_SYMBOL_STR(param_array_ops) },
+	{ 0x85e9b91e, __VMLINUX_SYMBOL_STR(snd_timer_interrupt) },
+	{ 0xc3050702, __VMLINUX_SYMBOL_STR(param_ops_long) },
+	{ 0xc0180a99, __VMLINUX_SYMBOL_STR(snd_pcm_hw_constraint_minmax) },
+	{ 0xedc03953, __VMLINUX_SYMBOL_STR(iounmap) },
+	{ 0x518f1b80, __VMLINUX_SYMBOL_STR(__pci_register_driver) },
+	{ 0x594300e, __VMLINUX_SYMBOL_STR(request_firmware) },
+	{ 0xbee3384, __VMLINUX_SYMBOL_STR(snd_pcm_lib_preallocate_pages_for_all) },
+	{ 0x7194f13c, __VMLINUX_SYMBOL_STR(snd_card_free) },
+	{ 0xf1671b86, __VMLINUX_SYMBOL_STR(dev_warn) },
+	{ 0xd9cd552f, __VMLINUX_SYMBOL_STR(snd_card_register) },
+	{ 0xa9bc3d04, __VMLINUX_SYMBOL_STR(snd_pcm_add_chmap_ctls) },
+	{ 0x61339424, __VMLINUX_SYMBOL_STR(snd_pcm_new) },
+	{ 0x3592c428, __VMLINUX_SYMBOL_STR(snd_ac97_resume) },
+	{ 0x929aee48, __VMLINUX_SYMBOL_STR(snd_ctl_add) },
+	{ 0xb7839412, __VMLINUX_SYMBOL_STR(pci_enable_device) },
+	{ 0x57a5969d, __VMLINUX_SYMBOL_STR(release_firmware) },
+	{ 0x2856423c, __VMLINUX_SYMBOL_STR(gameport_set_phys) },
+	{ 0xf20dabd8, __VMLINUX_SYMBOL_STR(free_irq) },
+	{ 0xe914e41e, __VMLINUX_SYMBOL_STR(strcpy) },
+};
+
+static const char __module_depends[]
+__used
+__attribute__((section(".modinfo"))) =
+"depends=snd-pcm,snd-opl3-lib,snd-mpu401-uart,snd,snd-timer,gameport,snd-ac97-codec";
+
+MODULE_ALIAS("pci:v00001073d00000004sv*sd*bc*sc*i*");
+MODULE_ALIAS("pci:v00001073d0000000Dsv*sd*bc*sc*i*");
+MODULE_ALIAS("pci:v00001073d0000000Asv*sd*bc*sc*i*");
+MODULE_ALIAS("pci:v00001073d0000000Csv*sd*bc*sc*i*");
+MODULE_ALIAS("pci:v00001073d00000010sv*sd*bc*sc*i*");
+MODULE_ALIAS("pci:v00001073d00000012sv*sd*bc*sc*i*");

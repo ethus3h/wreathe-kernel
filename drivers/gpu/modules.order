@@ -1,0 +1,13 @@
+kernel/drivers/gpu/drm/drm_kms_helper.ko
+kernel/drivers/gpu/drm/drm.ko
+kernel/drivers/gpu/drm/ttm/ttm.ko
+kernel/drivers/gpu/drm/tdfx/tdfx.ko
+kernel/drivers/gpu/drm/r128/r128.ko
+kernel/drivers/gpu/drm/radeon/radeon.ko
+kernel/drivers/gpu/drm/mga/mga.ko
+kernel/drivers/gpu/drm/i810/i810.ko
+kernel/drivers/gpu/drm/i915/i915.ko
+kernel/drivers/gpu/drm/sis/sis.ko
+kernel/drivers/gpu/drm/savage/savage.ko
+kernel/drivers/gpu/drm/via/via.ko
+kernel/drivers/gpu/drm/nouveau/nouveau.ko

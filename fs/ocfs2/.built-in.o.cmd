@@ -1,0 +1,1 @@
+cmd_fs/ocfs2/built-in.o :=  ld -m elf_x86_64   -r -o fs/ocfs2/built-in.o fs/ocfs2/ocfs2.o fs/ocfs2/ocfs2_stackglue.o fs/ocfs2/ocfs2_stack_o2cb.o fs/ocfs2/dlmfs/built-in.o fs/ocfs2/cluster/built-in.o fs/ocfs2/dlm/built-in.o 

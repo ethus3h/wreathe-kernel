@@ -1,0 +1,1 @@
+cmd_drivers/cpufreq/speedstep-centrino.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/cpufreq/speedstep-centrino.ko drivers/cpufreq/speedstep-centrino.o drivers/cpufreq/speedstep-centrino.mod.o

@@ -1,0 +1,13 @@
+kernel/drivers/usb/serial/usbserial.ko
+kernel/drivers/usb/serial/aircable.ko
+kernel/drivers/usb/serial/ark3116.ko
+kernel/drivers/usb/serial/ch341.ko
+kernel/drivers/usb/serial/ipw.ko
+kernel/drivers/usb/serial/mos7720.ko
+kernel/drivers/usb/serial/mos7840.ko
+kernel/drivers/usb/serial/navman.ko
+kernel/drivers/usb/serial/omninet.ko
+kernel/drivers/usb/serial/option.ko
+kernel/drivers/usb/serial/oti6858.ko
+kernel/drivers/usb/serial/usb_wwan.ko
+kernel/drivers/usb/serial/whiteheat.ko

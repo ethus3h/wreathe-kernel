@@ -1,0 +1,9 @@
+kernel/drivers/platform/x86/asus-laptop.ko
+kernel/drivers/platform/x86/msi-laptop.ko
+kernel/drivers/platform/x86/sony-laptop.ko
+kernel/drivers/platform/x86/thinkpad_acpi.ko
+kernel/drivers/platform/x86/hdaps.ko
+kernel/drivers/platform/x86/fujitsu-laptop.ko
+kernel/drivers/platform/x86/wmi.ko
+kernel/drivers/platform/x86/mxm-wmi.ko
+kernel/drivers/platform/x86/apple-gmux.ko

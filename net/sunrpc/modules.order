@@ -1,0 +1,2 @@
+kernel/net/sunrpc/sunrpc.ko
+kernel/net/sunrpc/xprtrdma/rpcrdma.ko

@@ -1,0 +1,2 @@
+kernel/arch/x86/crypto/aes-x86_64.ko
+kernel/arch/x86/crypto/twofish-x86_64.ko

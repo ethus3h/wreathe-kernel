@@ -1,0 +1,1 @@
+cmd_arch/x86/boot/compressed/vmlinux.bin.lzo := (cat arch/x86/boot/compressed/vmlinux.bin | lzop -9 && printf \\010\\111\\365\\000) > arch/x86/boot/compressed/vmlinux.bin.lzo || (rm -f arch/x86/boot/compressed/vmlinux.bin.lzo ; false)

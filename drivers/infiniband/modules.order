@@ -1,0 +1,11 @@
+kernel/drivers/infiniband/core/ib_core.ko
+kernel/drivers/infiniband/core/ib_cm.ko
+kernel/drivers/infiniband/core/iw_cm.ko
+kernel/drivers/infiniband/core/rdma_cm.ko
+kernel/drivers/infiniband/hw/mthca/ib_mthca.ko
+kernel/drivers/infiniband/hw/cxgb3/iw_cxgb3.ko
+kernel/drivers/infiniband/hw/mlx4/mlx4_ib.ko
+kernel/drivers/infiniband/ulp/ipoib/ib_ipoib.ko
+kernel/drivers/infiniband/ulp/srp/ib_srp.ko
+kernel/drivers/infiniband/ulp/iser/ib_iser.ko
+kernel/drivers/infiniband/sw/rdmavt/rdmavt.ko
